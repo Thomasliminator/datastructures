@@ -1,0 +1,17 @@
+Thomas Lim - tl2977
+
+Running the file Problem3.java shows the runtimes for the algorithms.
+The program runs the BigO algorithms for some integer n = 1, 5, 9, 13, 17, 21
+
+As n increases, the runtime for the cubic algorithm increases in a cubic fashion, showing that the algorithm
+    has a time complexity of O(n^3).
+In one example, when n = 1, the runtime was 1974 and when n = 21, the runtime was 118859.
+    
+As n increases, the runtime for the exponential algorithm increases in an exponential rate, showing that the
+    algorithm has a time complexity of O(2^n). 
+In one example, when n = 1, the runtime was 36949 and when n = 21, the runtime was 186763084.
+
+As n increases, the runtime for the constant algorithm remains approximately constant. The order of magnitude does
+    not change or changes by one, indicating that the runtime for this algorithm is constant.
+In one example, when n = 1, the runtime was 984 and when n = 21, the runtime was 547. 
+
